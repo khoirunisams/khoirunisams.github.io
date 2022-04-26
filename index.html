@@ -23,6 +23,53 @@
     <script src="https://kit.fontawesome.com/c8e4d183c2.js"
     crossorigin="anonymous"></script>
 
+    <!-- Slide -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Sosmed -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+
+
+    <style>
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+
     <title>Khoirunisa's Portfolio</title>
   </head>
   <body id="home">
@@ -63,7 +110,7 @@
     <section class="jumbotron text-center">
       <img src="img/imgcrop3.jpg" alt="Khoirunisa Mujahidah" width="300" class="rounded-circle img-thumbnail" />
       <br><br>
-      <h4>Hello I'am</h4>
+      <h4>Hello I am</h4>
       <h2 class="display-4">Khoirunisa Mujahidah Salman</h2>
       <p class="lead">I am student college majoring IT at LPKIA Institute of Digital Economy Bandung</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -77,7 +124,7 @@
     <!-- Akhir Jumbotron -->
 
     <!-- About -->
-    <section id="about">
+    <section id="about" style="background-color: #fff">
       <div class="container">
         <div class="row text-center mb-4">
           <div class="cola">
@@ -86,19 +133,17 @@
         </div>
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>I am a recent college from Institute of
-              Digital Economy LPKIA majoring in
-              Information Management . I am data driven
-              and skilled in time and file management. Has
-              been a data analysis in major companies.
+            <p>Hello there! My name is Khoirunisa Mujahidah Salman, I am student 
+              college at LPKIA Institute of Digital Economy Bandung majoring in
+              Information Management . I have Experience managing data since i did 
+              an internship as data management at Telkom Group
               </p>
           </div>
           <div class="col-md-4">
-            <p>I am very enthusiastic to learn more about data analysis, 
-              because i had an internship in Data Management.
+            <p>I am very enthusiastic to learn more about data management or data analyst.
               With strong curiosity, i like to learn
               something new in my life for skills
-              development.</p>
+              development, and i am very excited to participate in making projects in your company.</p>
           </div>
         </div>
       </div>
@@ -114,6 +159,149 @@
 
     <!-- Resume -->
     <section id="resume" style="background-color: #e4e9be">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="cola">
+            <h2>My Resume</h2>
+          </div>
+        </div>
+        <div class="resume_item resume_education">
+          <h3 class="fw-bold">Education</h3>
+          <div class="resume_info">
+            <div class="resume_data">
+              <div class="year">2020 - Now</div>
+              <div class="content">
+                <p>Informatic Management</p>
+                <p>LPKIA Institute of Digital Economy</p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2017 - 2020</div>
+              <div class="content">
+                <p>Telecommunication Access Network Engineering</p>
+                <p>Telkom Vocational High School</p>
+              </div>
+            </div>
+            <br>
+          </div>
+        </div>
+        <h3 class="fw-bold">Organization</h3>
+          <div class="resume_info">
+            <div class="resume_data">
+              <div class="year">2021 - Now</div>
+              <div class="content">
+                <p>HIMAKOM - IDE LPKIA</p>
+                <p>Treasurer</p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2021 - Now</div>
+              <div class="content">
+                <p>LOOP - IDE LPKIA</p>
+                <p>Member</p>
+              </div>
+            </div>
+            <div class="resume_data">
+              <div class="year">2017 - 2020</div>
+              <div class="content">
+                <p>Rohis - Telkom VHS</p>
+                <p>Member</p>
+              </div>
+            </div>
+            <br>
+        <h3 class="fw-bold">Internship Experience</h3>
+          <div class="resume_info">
+            <div class="resume_data">
+              <div class="year">July 2020 - December 2020</div>
+              <div class="content">
+                <p>Management Data</p>
+                <p>Grapari Telkom Group Lembong</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fff" fill-opacity="1" d="M0,288L40,266.7C80,245,160,203,240,192C320,181,400,203,480,224C560,245,640,267,720,256C800,245,880,203,960,170.7C1040,139,1120,117,1200,106.7C1280,96,1360,96,1400,96L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+
+    <!-- <section id="resume" style="background-color: #e4e9be">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="cola">
+            <h2>My Resume</h2>
+          </div>
+        </div>
+        <div class="row justify-content-start fs-5 text-start">
+          <div class="col-md-6">
+            <h3 class="fw-bold">Education</h3>
+            </div>
+            </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-lg-4">
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+              <div class="card-header" style="background-color: #a2b38b;">2020 - Now</div>
+              <div class="card-body text-black">
+                <h5 class="card-title">Informatic Management</h5>
+                <p class="card-text">LPKIA Institute of Digital Economy</p>
+              </div>
+            </div>
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+              <div class="card-header" style="background-color: #a2b38b;">2020 - Now</div>
+              <div class="card-body text-black">
+                <h5 class="card-title">Informatic Management</h5>
+                <p class="card-text">LPKIA Institute of Digital Economy</p>
+              </div>
+            </div>
+        </div>
+        
+          <div class="col-lg-4">
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+              <div class="card-header" style="background-color: #a2b38b;">2020 - Now</div>
+              <div class="card-body text-black">
+                <h5 class="card-title">Informatic Management</h5>
+                <p class="card-text">LPKIA Institute of Digital Economy</p>
+              </div>
+            </div>
+            <div class="card border-success mb-3" style="max-width: 18rem;">
+              <div class="card-header" style="background-color: #a2b38b;">2020 - Now</div>
+              <div class="card-body text-black">
+                <h5 class="card-title">Informatic Management</h5>
+                <p class="card-text">LPKIA Institute of Digital Economy</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <div class="card-header" style="background-color: #a2b38b;">2020 - Now</div>
+            <div class="card-body text-black">
+              <h5 class="card-title">Informatic Management</h5>
+              <p class="card-text">LPKIA Institute of Digital Economy</p>
+            </div>
+          </div>
+          <div class="card border-success mb-3" style="max-width: 18rem;">
+            <div class="card-header" style="background-color: #a2b38b;">2020 - Now</div>
+            <div class="card-body text-black">
+              <h5 class="card-title">Informatic Management</h5>
+              <p class="card-text">LPKIA Institute of Digital Economy</p>
+            </div>
+          </div>
+      </div>
+          </div>  
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#fff" fill-opacity="1" d="M0,288L40,266.7C80,245,160,203,240,192C320,181,400,203,480,224C560,245,640,267,720,256C800,245,880,203,960,170.7C1040,139,1120,117,1200,106.7C1280,96,1360,96,1400,96L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+          </path>
+        </svg>
+    </section> -->
+
+
+
+
+
+    <!-- <section id="resume" style="background-color: #e4e9be">
       <div class="container">
         <div class="row text-center mb-4">
           <div class="colr">
@@ -153,7 +341,7 @@
         <path fill="#fff" fill-opacity="1" d="M0,288L40,266.7C80,245,160,203,240,192C320,181,400,203,480,224C560,245,640,267,720,256C800,245,880,203,960,170.7C1040,139,1120,117,1200,106.7C1280,96,1360,96,1400,96L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
         </path>
       </svg>
-    </section>
+    </section> -->
     <!-- Akhir Resume -->
 
     <!-- Portofolio -->
@@ -161,11 +349,45 @@
       <div class="container">
         <div class="row text-center mb-4">
           <div class="colp">
-            <h2>Portofolio</h2>
+            <h2>My Portofolio</h2>
           </div>
+          <h5>Tekan dan geser ke kiri untuk melihat!</h5>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-3">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" >
+              <div class="card w-60" style="background-color: #E6BA95; height: 25rem;">
+                <img src="img/Projects/1.png" class="card-img-top" alt="Project 1" />
+                <div class="card-body">
+                  <p class="card-text text-white fw-bold text-center">Things's Supermarket App</p>
+                </div>
+              </div></div>
+              <div class="swiper-slide">
+                <div class="card w-60" style="background-color: #E6BA95; height: 25rem;">
+                  <img src="img/Projects/2.png" class="card-img-top" alt="Project 2" />
+                  <div class="card-body">
+                    <p class="card-text text-white fw-bold text-center">Farmer's Market App</p>
+                  </div>
+                </div></div>
+                <div class="swiper-slide" >
+                  <div class="card w-60" style="background-color: #E6BA95; height: 25rem;">
+                    <img src="img/Projects/3.png" class="card-img-top" alt="Project 3" />
+                    <div class="card-body">
+                      <p class="card-text text-white fw-bold text-center">Academic System App</p>
+                    </div>
+                  </div></div>
+                  <div class="swiper-slide" >
+                    <div class="card w-60" style="background-color: #E6BA95; height: 25rem;">
+                      <img src="img/Projects/4.png" class="card-img-top" alt="Project 3" />
+                      <div class="card-body">
+                        <p class="card-text text-white fw-bold text-center">Game Fat Rabbit</p>
+                      </div>
+                    </div></div>
+                  </div>
+                  <div class="swiper-pagination mt-3" ></div>
+                </div>
+          <!-- <div class="col-md-4 mb-3">
             <div class="card" style="background-color: #E6BA95;">
               <img src="img/Projects/1.png" class="card-img-top" alt="Project 1" />
               <div class="card-body">
@@ -188,7 +410,7 @@
                 <p class="card-text text-white fw-bold text-center">Academic System App</p>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -207,27 +429,51 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-2 mb-3">
             <div class="card" style="background-color: #E6BA95;">
-              <img src="img/Skills/vsco.png" class="card-img-top" alt="Skills 1" width="200"/>
+              <img src="img/Skills/1.png" class="card-img-top" alt="Skills 1" width="200"/>
               <div class="card-body">
-                <p class="card-text fw-bold text-center" >VSCO</p>
+                <p class="card-text fw-bold text-center" >Java</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-2 mb-3">
             <div class="card" style="background-color: #e6ba95;">
-              <img src="img/Skills/canva.png" class="card-img-top" alt="Skills 3" width="200"/>
+              <img src="img/Skills/2.png" class="card-img-top" alt="Skills 2" width="200"/>
+              <div class="card-body">
+                <p class="card-text  fw-bold text-center">PHP</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mb-3">
+            <div class="card" style="background-color: #E6BA95;">
+              <img src="img/Skills/3.png" class="card-img-top" alt="Skills 3" width="200"/>
+              <div class="card-body">
+                <p class="card-text fw-bold text-center">Python</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mb-3">
+            <div class="card" style="background-color: #e6ba95;">
+              <img src="img/Skills/4.png" class="card-img-top" alt="Skills 4" width="200"/>
+              <div class="card-body">
+                <p class="card-text  fw-bold text-center">MySQL</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mb-3">
+            <div class="card" style="background-color: #e6ba95;">
+              <img src="img/Skills/5.png" class="card-img-top" alt="Skills 5" width="200"/>
               <div class="card-body">
                 <p class="card-text  fw-bold text-center">Canva</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card" style="background-color: #E6BA95;">
-              <img src="img/Skills/ms365.png" class="card-img-top" alt="Skills 3" width="200"/>
+          <div class="col-md-2 mb-3">
+            <div class="card" style="background-color: #e6ba95;">
+              <img src="img/Skills/6.png" class="card-img-top" alt="Skills 6" width="200"/>
               <div class="card-body">
-                <p class="card-text fw-bold text-center">Microsoft 365</p>
+                <p class="card-text  fw-bold text-center">VSCO</p>
               </div>
             </div>
           </div>
@@ -244,7 +490,7 @@
     <!-- Akhir Skills -->
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" style="background-color: #fff">
       <div class="container">
         <div class="row text-center mb-4">
           <div class="colc">
@@ -253,38 +499,78 @@
         </div>
         <div class="row justify-content-start">
           <div class="col-md-6">
-            <form>
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Thank you!</strong> Your message has been successfully sent.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="contact-form-portfolio">
               <div class="mb-3">
-                <label for="name " class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" />
+                <label for="name " class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="fullname" />
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" />
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
               </div>
               <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
+                <label for="pesan" class="form-label">Message</label>
+                <textarea class="form-control" id="pesan" rows="3" name="message"></textarea>
               </div>
-              <button type="submit" class="btn" style="background-color: #a2b38b">Kirim</button>
+              <button type="submit" class="btn btn-kirim" style="background-color: #a2b38b">Kirim</button>
+
+              <button class="btn btn-loading d-none" style="background-color: #a2b38b" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                <span class="visually-hidden">Loading...</span>
+              </button>
+              
             </form>
           </div>
-          <div class="col-lg-4 col-sm-6 col-12">
-            <div class="cardp" style="width: 20rem; background-color: #a2b38b;">
+          <div class="col-md-6">
+            <div class="cols">
+              <h2>My Social Media</h2>
+            </div>
+            <br>
+            <div class="simbol">
+              <i class="bi bi-envelope-fill fa-2x"></i>
+              <h5 style="">khoirunisams@gmail.com</h5> 
+            </div>
+            <br>
+            <div>
+              <i class="bi bi-telephone-fill fa-2x"></i>
+              <h5>+62 896-5865-5415</h5>
+            </div>
+            <br>
+            <!-- <div class="social-menu">
+              <h1>Social Media Button Hover Effect</h1>
+              <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div> -->
+            <div class="icon">
+              <a  class="tombol text-center" href="https://twitter.com/itsnisamuj" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a class="tombol text-center" href="https://www.instagram.com/nisamuj/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a class="tombol text-center" href="https://wa.me/6289658655415"target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <!-- <div class="cardp" style="width: 20rem; background-color: #a2b38b;">
               <div class="cardp-body">
                 <h5 class="cardp-title text-center">Email</h5>
                 <h6 class="cardp-subtitle mb-2 text-muted"></h6>
                 <p class="cardp-text"></p>
                 <a href="#" class="cardp-link text-white text-center fw-bold">khoirunisams@gmail.com</a>
-              </div>
-            </div>
-            <div class="social-icons">
+              </div> -->
+
+            <!-- <div class="social-icons">
               <a href=""><i class="fab fa-facebook-f"></i></a>
               <a href=""><i class="fab fa-twitter"></i></a>
               <a href=""><i class="fab fa-instagram"></i></a>
               <a href=""><i class="fab fa-telegram"></i></a>
               <a href=""><i class="fab fa-whatsapp"></i></a>
-            </div>
+            </div> -->
           </div>
         </div>
         
@@ -307,5 +593,45 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         pagination: {
+           el: ".swiper-pagination",
+           dynamicBullets: true,
+         },
+       });
+     </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwZYHJCpyH5_rAQl0I7XrcqoGiyrbl7P8h59M2XMzELLm9Xd_7zozNIepj6pVnB4krz/exec'
+  const form = document.forms['contact-form-portfolio'];
+  const btnKirim = document.querySelector('.btn-kirim')
+  const btnLoading = document.querySelector('.btn-loading')
+  const myAlert = document.querySelector('.my-alert')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    // ketika tombol submit diklik
+    // tampilkan tombol loading, hilangkan tombol kirim
+    btnLoading.classList.toggle('d-none');
+    btnKirim.classList.toggle('d-none');
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        // tampilkan tombol kirim, hilangkan tombol loading
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        // tampilkan alert
+        myAlert.classList.toggle('d-none');
+        // reset form
+        form.reset();
+        console.log('Success!', response)
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
   </body>
 </html>
